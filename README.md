@@ -47,5 +47,6 @@ This project automates the process of sending personalized messages to clients v
 - [Pandas](https://pandas.pydata.org/) - Python library for data manipulation and analysis.
 
 ## Disclaimer
-This project was created for educational purposes only. Automating message sending on WhatsApp may violate the platform's terms of service and can potentially lead to account suspension or other consequences. The creators of this project do not endorse or encourage the unauthorized use of automated messaging tools on any platform. Users are advised to use this project responsibly and in compliance with applicable laws and regulations.
+<span style="font-size:12pt">This project was created for educational purposes only. Automating message sending on WhatsApp may violate the platform's terms of service and can potentially lead to account suspension or other consequences. The creators of this project do not endorse or encourage the unauthorized use of automated messaging tools on any platform. Users are advised to use this project responsibly and in compliance with applicable laws and regulations.</span>
+
 ---
