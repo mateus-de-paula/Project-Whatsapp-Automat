@@ -23,6 +23,22 @@ This project automates the process of sending personalized messages to clients v
 3. Download and install the Chrome WebDriver.
    - [Chrome WebDriver](https://sites.google.com/a/chromium.org/chromedriver/)
 
+## Chrome Profile Path Configuration
+
+For the program to work optimally, it is adviced to create a Chrome profile so that your eShop Prices login is maintained. (Selenium is the name of the tool used to perform the automation)
+
+1. Create a folder named 'Profile Selenium' like this: "C:\Users\YOUR_USER\AppData\Local\Google\Chrome\User Data\Profile Selenium"
+
+2. Open Chrome manually using the profile you already configured in your script. You can do this using Windows Run or Command Prompt:
+```
+chrome.exe --user-data-dir="C:\Users\YOUR_USER\AppData\Local\Google\Chrome\User Data\Profile Selenium"
+```
+-Important: Close all Chrome windows before running this command to avoid instance conflicts.
+
+3. Log in to Whatssapp Web
+-Log in by scannong the QR Code.
+-Check if you are authenticated and that the site maintains the session even after closing the tab.
+
 ## Usage
 1. Run the script `main.py`.
    ```
